@@ -1,0 +1,22 @@
+BREAST CANCER CLASSIFICATION ANALYSIS SUMMARY
+=============================================
+
+Dataset: 569 samples, 30 features
+Target encoding: 1=Malignant, 0=Benign
+
+Selected Features:
+  - mean concave points: 3.430
+  - worst radius: 9.147
+  - worst texture: 3.015
+  - worst concave points: 5.727
+
+Model Accuracies:
+  - K-Means: 0.9767
+  - Logistic Regression: 0.9767
+  - SVM (Linear): 0.9767
+  - SVM (Polynomial): 0.9767
+
+Multiple Runs (50 iterations):
+  - Mean Accuracy: 0.9581 ± 0.0247
+  - Mean False Positive Rate: 0.0076
+  - Mean False Negative Rate: 0.0978
